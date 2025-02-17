@@ -4,7 +4,6 @@ import {
   MIC_ICON,
   NOTIFICATION_ICON,
   RUTHVIK_ICON,
-  USER_ICON,
   YOUTUBE_ICON,
 } from "./Utils/Constants";
 import { toggleMenu } from "./Utils/navAppSlice";

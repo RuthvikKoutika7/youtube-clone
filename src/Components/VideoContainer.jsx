@@ -23,7 +23,8 @@ const VideoContainer = () => {
   console.log(storeVideos);
   //console.log(storeVideos[1]?.Array[1]);
   return (
-    <div className="flex flex-wrap">
+    
+    <div className="flex flex-wrap  ">
       {videos[1] && <AdVideoCard info={videos[1]} />}
 
       {videos.map((video) => (
@@ -32,6 +33,7 @@ const VideoContainer = () => {
         </Link>
       ))}
     </div>
+    
   );
 };
 export default VideoContainer;

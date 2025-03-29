@@ -23,7 +23,7 @@ const SideBar = () => {
   if(!isMenuOpen) return null;
 
   return (
-    <div className=" mx-2">
+    <div className=" mx-2 ">
       <div className="">
         <div className="font-bold py-3 shodow-lg  border-gray-300 border-b-2 ">
           <h1 className="font-semibold flex justify-between">
@@ -83,20 +83,20 @@ const SideBar = () => {
         <div className=" border-gray-300 border-b-2">
           <h1 className="font-semibold text-xl m-2"> Subscriptions </h1>
           <ul className="">
-            <li className="flex justify-between">
-              <img alt="user-icon " className="h-10" src={USER_ICON} />
+            <li className="flex justify-between items-center ">
+              <img alt="user-icon " className="h-8" src={USER_ICON} />
               Sriman Kotaru
             </li>
-            <li className="flex justify-between">
-              <img alt="user-icon " className="h-10" src={USER_ICON} />
+            <li className="flex justify-between items-center">
+              <img alt="user-icon " className="h-8" src={USER_ICON} />
               UNQ Gamer
             </li>
-            <li className="flex justify-between">
-              <img alt="user-icon " className="h-10" src={USER_ICON} />
+            <li className="flex justify-between items-center">
+              <img alt="user-icon " className="h-8" src={USER_ICON} />
               RAW Talks
             </li>
-            <li className="flex justify-between">
-              <img alt="user-icon " className="h-10" src={USER_ICON} />
+            <li className="flex justify-between items-center">
+              <img alt="user-icon " className="h-8" src={USER_ICON} />
               Allu Arjun
             </li>
           </ul>
